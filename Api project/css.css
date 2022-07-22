@@ -1,0 +1,66 @@
+.main_sec{
+    width: 100%;
+    background-color: rgb(124, 194, 194);
+    /* height: 600px; */
+    position: relative;
+    top: 0px;
+    padding-bottom: 80px;
+}
+.heading{
+    text-align: center;
+    padding-top: 40px;
+    color: white;
+}
+.detail_sec{
+    width: 60%;
+    height: 500px;
+    background-color: gray;
+    margin: auto;
+
+    text-align: center;
+}
+@media screen and (max-width:600px){
+    .detail_sec{
+        width: 80%;
+       
+    } 
+}
+.name_text{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+#img_point{
+    width: 270px;
+    height: 200px;
+    margin: auto;
+}
+@media screen and (max-width:600px){
+    #img_point{
+        width: 200px;
+       
+    } 
+}
+.btn_click{
+position: relative;
+top: 20px;
+padding: 10px 30px 10px 30px;
+border: none;
+font-weight: bold;
+color: white;
+background-color: dodgerblue;
+border-radius: 10px;
+}
+.btn_click:hover{
+background-color:rgb(124, 194, 194) ;
+cursor: pointer;
+}
+#name_value{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
